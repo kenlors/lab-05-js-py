@@ -1,9 +1,8 @@
-username = input("noun? Adjective? Adverb? Verb?")
-print("On a tropical hamburger
-Underneath a kind moon
-Hanging' gently
-provided questions cause they got all the answers")
-var x = "hamburger"
-var x = "kind"
-var x = "gently"
-var x = "provided"
+noun =input("Can you give me a noun?")
+adjective =input("Can you give an adjective?")
+adverb =input("Can you give me an adverb?")
+verb =input("Can you give me a verb?")
+print("On a tropical " + noun)
+print("Underneath a " + adjective + " moon")
+print("Hanging' " + adverb +)
+print(verb+ "questions cause they got all the answers ")
